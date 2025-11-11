@@ -1,0 +1,79 @@
+{
+  "cli": {
+    "title": "ENEM TRI Calculator",
+    "subtitle": "Estimate your ENEM scores based on correct answers",
+    "calculating": "Calculating your ENEM scores...",
+    "interactive_title": "Interactive Score Estimation",
+    "input_prompt": "Please enter your correct answers for each area:",
+    "cancelled": "Cancelled"
+  },
+  "areas": {
+    "mathematics": "Mathematics and its Technologies",
+    "languages": "Languages, Codes and its Technologies",
+    "natural_sciences": "Natural Sciences and its Technologies",
+    "human_sciences": "Human Sciences and its Technologies",
+    "essay": "Essay"
+  },
+  "prompts": {
+    "mathematics": "Mathematics correct answers (0-45)",
+    "languages": "Languages correct answers (0-45)",
+    "natural_sciences": "Natural Sciences correct answers (0-45)",
+    "human_sciences": "Human Sciences correct answers (0-45)",
+    "essay": "Essay score (0-1000)",
+    "range_error": "Please enter a value between {min} and {max}"
+  },
+  "results": {
+    "table_title": "Your Estimated ENEM Scores",
+    "column_area": "Area",
+    "column_correct": "Correct Answers",
+    "column_score": "Estimated Score",
+    "column_confidence": "95% Confidence Interval",
+    "summary_title": "Summary",
+    "average_score": "Average Score:",
+    "objective_average": "Objective Tests Average:"
+  },
+  "info": {
+    "about_tri_title": "About ENEM TRI (Item Response Theory)",
+    "about_tri_desc": "The ENEM uses TRI instead of simple correct answer counting. This means:",
+    "tri_point_1": "Not all questions have the same weight",
+    "tri_point_1_desc": "Difficulty varies between questions",
+    "tri_point_2": "Scoring is based on statistical models",
+    "tri_point_2_desc": "Uses parameters: difficulty, discrimination, and guessing",
+    "tri_point_3": "Consistency matters",
+    "tri_point_3_desc": "Pattern of correct/incorrect answers affects the score",
+    "about_calculator_title": "About This Calculator",
+    "about_calculator_desc": "This calculator provides ESTIMATES based on:",
+    "calc_point_1": "Historical ENEM data and statistical patterns",
+    "calc_point_2": "Logistic curve models approximating TRI behavior",
+    "calc_point_3": "Average score distributions by number of correct answers",
+    "limitations_title": "Important Limitations:",
+    "limitations_1": "Exact item parameters are partially confidential",
+    "limitations_2": "Estimates may differ from official scores",
+    "limitations_3": "For educational and planning purposes only",
+    "data_sources_title": "Data Sources",
+    "data_sources_url": "Official data: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
+    "more_info": "For more information, see the documentation in the docs/ folder."
+  },
+  "disclaimer": {
+    "warning": "These are ESTIMATED scores based on statistical models.",
+    "official": "Official scores can only be provided by INEP/MEC.",
+    "confidential": "The actual TRI calculation uses specific item parameters that are partially confidential."
+  },
+  "commands": {
+    "calculate_help": "Calculate estimated ENEM scores based on correct answers",
+    "interactive_help": "Interactive mode with step-by-step input",
+    "info_help": "Display information about the TRI methodology and data sources",
+    "estimate_area_help": "Estimate score for a single area"
+  },
+  "options": {
+    "mathematics_help": "Number of correct answers in Mathematics",
+    "languages_help": "Number of correct answers in Languages",
+    "natural_sciences_help": "Number of correct answers in Natural Sciences",
+    "human_sciences_help": "Number of correct answers in Human Sciences",
+    "essay_help": "Essay score",
+    "show_confidence_help": "Show confidence intervals for estimates"
+  },
+  "errors": {
+    "invalid_range": "Error: Correct answers must be between 0 and 45"
+  }
+}

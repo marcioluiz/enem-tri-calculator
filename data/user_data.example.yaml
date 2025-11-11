@@ -1,0 +1,57 @@
+# Configuração de Dados Históricos do ENEM
+# Este arquivo permite informar seus resultados de anos anteriores
+# para melhorar a precisão das estimativas
+
+# INSTRUÇÕES:
+# 1. Copie este arquivo para user_data.yaml
+# 2. Preencha com seus dados reais
+# 3. Execute: python main.py calculate --use-yaml
+
+# Ano corrente (apenas número de acertos)
+current_year:
+  year: 2025
+  mathematics: 35        # Número de acertos em Matemática (0-45)
+  languages: 40          # Número de acertos em Linguagens (0-45)
+  natural_sciences: 38   # Número de acertos em Ciências da Natureza (0-45)
+  human_sciences: 42     # Número de acertos em Ciências Humanas (0-45)
+  essay_score: 900       # Nota da redação (0-1000)
+
+# Anos anteriores (número de acertos E notas oficiais)
+# Use isto para calibrar melhor o modelo com seus resultados reais
+previous_years:
+  - year: 2024
+    mathematics:
+      correct_answers: 30
+      official_score: 650.5
+    languages:
+      correct_answers: 38
+      official_score: 720.3
+    natural_sciences:
+      correct_answers: 35
+      official_score: 680.7
+    human_sciences:
+      correct_answers: 40
+      official_score: 750.2
+    essay_score: 880
+  
+  # Adicione mais anos se necessário:
+  # - year: 2023
+  #   mathematics:
+  #     correct_answers: 28
+  #     official_score: 620.0
+  #   languages:
+  #     correct_answers: 36
+  #     official_score: 690.5
+  #   natural_sciences:
+  #     correct_answers: 33
+  #     official_score: 650.0
+  #   human_sciences:
+  #     correct_answers: 38
+  #     official_score: 710.0
+  #   essay_score: 840
+
+# Configurações de estimativa
+settings:
+  use_historical_data: true    # Se false, usa apenas dados estatísticos gerais
+  show_comparison: true         # Mostrar comparação com anos anteriores
+  confidence_level: 0.95        # Nível de confiança (0.90, 0.95, 0.99)

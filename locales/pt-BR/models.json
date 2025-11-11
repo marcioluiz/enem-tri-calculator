@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "negative_correct_answers": "O número de respostas corretas não pode ser negativo",
+    "correct_exceeds_total": "Respostas corretas ({correct}) não podem exceder total de questões ({total})",
+    "score_out_of_bounds": "A nota {score} deve estar entre 0 e 1000",
+    "invalid_area_type": "Tipo de área inválido: {area_type}",
+    "essay_not_calculated": "A nota da redação deve ser fornecida diretamente, não calculada",
+    "confidence_not_applicable": "Intervalo de confiança não aplicável para redação"
+  },
+  "validation": {
+    "correct_answers_range": "Respostas corretas devem estar entre 0 e {max}",
+    "essay_score_range": "Nota da redação deve estar entre 0 e 1000"
+  }
+}

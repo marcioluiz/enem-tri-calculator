@@ -1,0 +1,11 @@
+{
+  "calculator": {
+    "estimating": "Estimating TRI score...",
+    "calculation_complete": "Calculation complete"
+  },
+  "errors": {
+    "mismatched_data_length": "Length of correct_answers and scores must match",
+    "empty_score_mapping": "Score mapping cannot be empty",
+    "invalid_correct_range": "Correct answers must be between 0 and {max}"
+  }
+}

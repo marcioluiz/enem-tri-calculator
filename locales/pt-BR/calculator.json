@@ -1,0 +1,11 @@
+{
+  "calculator": {
+    "estimating": "Estimando nota TRI...",
+    "calculation_complete": "Cálculo concluído"
+  },
+  "errors": {
+    "mismatched_data_length": "O comprimento de correct_answers e scores deve ser igual",
+    "empty_score_mapping": "Mapeamento de notas não pode ser vazio",
+    "invalid_correct_range": "Respostas corretas devem estar entre 0 e {max}"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "mathematics": {
+    "min": 0,
+    "max": 100,
+    "mean": 47,
+    "std": 20
+  },
+  "languages": {
+    "min": 0,
+    "max": 100,
+    "mean": 50,
+    "std": 19
+  },
+  "natural_sciences": {
+    "min": 0,
+    "max": 100,
+    "mean": 44,
+    "std": 21
+  },
+  "human_sciences": {
+    "min": 0,
+    "max": 100,
+    "mean": 49,
+    "std": 20
+  },
+  "_note": "Pre-TRI scoring (0-100 scale)"
+}

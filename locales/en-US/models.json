@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "negative_correct_answers": "Number of correct answers cannot be negative",
+    "correct_exceeds_total": "Correct answers ({correct}) cannot exceed total questions ({total})",
+    "score_out_of_bounds": "Score {score} must be between 0 and 1000",
+    "invalid_area_type": "Invalid area type: {area_type}",
+    "essay_not_calculated": "Essay score must be provided directly, not calculated",
+    "confidence_not_applicable": "Confidence interval not applicable for essay"
+  },
+  "validation": {
+    "correct_answers_range": "Correct answers must be between 0 and {max}",
+    "essay_score_range": "Essay score must be between 0 and 1000"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "cli": {
+    "title": "Calculadora ENEM TRI",
+    "subtitle": "Estime suas notas do ENEM com base nos acertos",
+    "calculating": "Calculando suas notas do ENEM...",
+    "interactive_title": "Estimativa Interativa de Notas",
+    "input_prompt": "Por favor, informe seus acertos em cada área:",
+    "cancelled": "Cancelado"
+  },
+  "areas": {
+    "mathematics": "Matemática e suas Tecnologias",
+    "languages": "Linguagens, Códigos e suas Tecnologias",
+    "natural_sciences": "Ciências da Natureza e suas Tecnologias",
+    "human_sciences": "Ciências Humanas e suas Tecnologias",
+    "essay": "Redação"
+  },
+  "prompts": {
+    "mathematics": "Acertos em Matemática (0-45)",
+    "languages": "Acertos em Linguagens (0-45)",
+    "natural_sciences": "Acertos em Ciências da Natureza (0-45)",
+    "human_sciences": "Acertos em Ciências Humanas (0-45)",
+    "essay": "Nota da Redação (0-1000)",
+    "range_error": "Por favor, insira um valor entre {min} e {max}"
+  },
+  "results": {
+    "table_title": "Suas Notas Estimadas do ENEM",
+    "column_area": "Área",
+    "column_correct": "Acertos",
+    "column_score": "Nota Estimada",
+    "column_confidence": "Intervalo de Confiança 95%",
+    "summary_title": "Resumo",
+    "average_score": "Média Geral:",
+    "objective_average": "Média das Provas Objetivas:"
+  },
+  "info": {
+    "about_tri_title": "Sobre o TRI do ENEM (Teoria de Resposta ao Item)",
+    "about_tri_desc": "O ENEM usa TRI ao invés de simples contagem de acertos. Isso significa:",
+    "tri_point_1": "Nem todas as questões têm o mesmo peso",
+    "tri_point_1_desc": "A dificuldade varia entre as questões",
+    "tri_point_2": "A pontuação é baseada em modelos estatísticos",
+    "tri_point_2_desc": "Usa parâmetros: dificuldade, discriminação e acerto ao acaso",
+    "tri_point_3": "A consistência importa",
+    "tri_point_3_desc": "O padrão de acertos/erros afeta a nota",
+    "about_calculator_title": "Sobre Esta Calculadora",
+    "about_calculator_desc": "Esta calculadora fornece ESTIMATIVAS baseadas em:",
+    "calc_point_1": "Dados históricos do ENEM e padrões estatísticos",
+    "calc_point_2": "Modelos de curva logística aproximando o comportamento TRI",
+    "calc_point_3": "Distribuições médias de notas por número de acertos",
+    "limitations_title": "Limitações Importantes:",
+    "limitations_1": "Os parâmetros exatos das questões são parcialmente confidenciais",
+    "limitations_2": "As estimativas podem diferir das notas oficiais",
+    "limitations_3": "Apenas para fins educacionais e de planejamento",
+    "data_sources_title": "Fontes de Dados",
+    "data_sources_url": "Dados oficiais: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
+    "more_info": "Para mais informações, consulte a documentação na pasta docs/"
+  },
+  "disclaimer": {
+    "warning": "Estas são notas ESTIMADAS baseadas em modelos estatísticos.",
+    "official": "As notas oficiais só podem ser fornecidas pelo INEP/MEC.",
+    "confidential": "O cálculo TRI real usa parâmetros específicos das questões que são parcialmente confidenciais."
+  },
+  "commands": {
+    "calculate_help": "Calcular notas estimadas do ENEM baseadas nos acertos",
+    "interactive_help": "Modo interativo com entrada passo a passo",
+    "info_help": "Exibir informações sobre a metodologia TRI e fontes de dados",
+    "estimate_area_help": "Estimar nota de uma área específica"
+  },
+  "options": {
+    "mathematics_help": "Número de acertos em Matemática",
+    "languages_help": "Número de acertos em Linguagens",
+    "natural_sciences_help": "Número de acertos em Ciências da Natureza",
+    "human_sciences_help": "Número de acertos em Ciências Humanas",
+    "essay_help": "Nota da redação",
+    "show_confidence_help": "Mostrar intervalos de confiança para as estimativas"
+  },
+  "errors": {
+    "invalid_range": "Erro: Os acertos devem estar entre 0 e 45"
+  }
+}

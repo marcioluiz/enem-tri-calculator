@@ -1,0 +1,26 @@
+{
+  "mathematics": {
+    "min": 300,
+    "max": 990,
+    "mean": 520,
+    "std": 102
+  },
+  "languages": {
+    "min": 300,
+    "max": 865,
+    "mean": 528,
+    "std": 84
+  },
+  "natural_sciences": {
+    "min": 300,
+    "max": 925,
+    "mean": 510,
+    "std": 89
+  },
+  "human_sciences": {
+    "min": 300,
+    "max": 905,
+    "mean": 538,
+    "std": 87
+  }
+}
