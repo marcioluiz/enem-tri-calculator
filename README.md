@@ -7,7 +7,7 @@
 **Calculadora de notas do ENEM baseada na Teoria de Resposta ao Item (TRI)**  
 *Com dados históricos oficiais do INEP (21 anos de estatísticas)*
 
-[Instalação](#-instalação) • [Uso](#-uso) • [Metodologia](#-metodologia) • [Exemplos](#-exemplos-práticos) • [FAQ](#-faq---perguntas-frequentes)
+[Instalação](#instalação) • [Uso](#-uso) • [Metodologia](#metodologia) • [Exemplos](#-exemplos-práticos) • [FAQ](#-faq---perguntas-frequentes)
 
 </div>
 
@@ -36,14 +36,14 @@ Este projeto estima as notas de um aluno no ENEM com base no número de acertos 
 
 ## Índice
 
-- [Instalação](#-instalação)
+- [Instalação](#instalação)
 - [Uso](#-uso)
   - [Interface CLI](#interface-de-linha-de-comando-cli)
-  - [Suporte Multilíngue](#-suporte-a-múltiplos-idiomas)
-  - [Uso Programático](#-exemplo-de-uso-programático)
-- [Metodologia](#-metodologia)
+  - [Suporte Multilíngue](#suporte-a-múltiplos-idiomas)
+  - [Uso Programático](#exemplo-de-uso-programático)
+- [Metodologia](#metodologia)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Configuração YAML](#-configuração-do-yaml)
+- [Configuração YAML](#configuração-do-yaml)
 - [Testes](#-testes)
 - [Internacionalização](#-internacionalização-i18n)
 - [Utilitários](#️-utilitários)
@@ -51,7 +51,7 @@ Este projeto estima as notas de um aluno no ENEM com base no número de acertos 
 - [Exemplos Práticos](#-exemplos-práticos)
 - [FAQ](#-faq---perguntas-frequentes)
 - [Contribuindo](#-contribuindo)
-- [Licença](#-licença)
+- [Licença](#licença)
 
 ## Instalação
 
