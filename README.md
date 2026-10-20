@@ -70,7 +70,7 @@ cd enem-tri-calc
 
 **2. Crie um ambiente conda:**
 ```bash
-conda create -n enem-tri python=3.11
+conda create -n enem-tri python=3.14
 conda activate enem-tri
 ```
 
