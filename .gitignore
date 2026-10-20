@@ -53,3 +53,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# RTK Token Saver
+.clinerules
