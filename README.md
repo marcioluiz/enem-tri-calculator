@@ -2,10 +2,10 @@
 
 <div align="center">
 
-![License](https://img.shields.io/badge/license-MIT-green) ![INEP Data](https://img.shields.io/badge/INEP%20Data-2004--2024-orange) ![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-green) ![INEP Data](https://img.shields.io/badge/INEP%20Data-2004--2025-orange) ![Status](https://img.shields.io/badge/status-active-success)
 
 **Calculadora de notas do ENEM baseada na Teoria de Resposta ao Item (TRI)**  
-*Com dados históricos oficiais do INEP (21 anos de estatísticas)*
+*Com dados históricos oficiais do INEP (22 anos de estatísticas)*
 
 [Instalação](#instalação) • [Uso](#-uso) • [Metodologia](#metodologia) • [Exemplos](#-exemplos-práticos) • [FAQ](#-faq---perguntas-frequentes)
 
@@ -19,7 +19,7 @@ Este projeto estima as notas de um aluno no ENEM com base no número de acertos 
 
 ### Recursos
 
-- **Dados Oficiais INEP**: Estatísticas de 2004 a 2024 (21 anos de histórico)
+- **Dados Oficiais INEP**: Estatísticas de 2004 a 2025 (22 anos de histórico)
 - **Três Cenários de Estimativa**: Pessimista, Calculado e Otimista
 - **Calibração Personalizada**: Use seus resultados anteriores para melhorar a precisão
 - **Suporte Multilíngue**: Interface em Português (pt-BR) e Inglês (en-US)
@@ -228,8 +228,8 @@ if loader.load() and loader.has_historical_data():
 
 A estimativa de notas utiliza uma abordagem multinível:
 
-1. **Estatísticas INEP Oficiais** (2004-2024)
-   - Carrega dados de 21 anos de ENEM
+1. **Estatísticas INEP Oficiais** (2004-2025)
+   - Carrega dados de 22 anos de ENEM
    - Calcula médias, desvios-padrão, mínimos e máximos por área
    - Usa dados do ano de referência especificado (padrão: 2024)
 
@@ -291,10 +291,12 @@ enem-tri-calc/
 │       ├── models.json
 │       └── calculator.json
 ├── data/
-│   ├── inep_stats/                 # Estatísticas INEP (2004-2024)
+│   ├── inep_stats/                 # Estatísticas INEP (2004-2025)
 │   │   ├── stats_2004.json
 │   │   ├── stats_2005.json
-│   │   └── ... (21 arquivos)
+│   │   ├── ...
+│   │   ├── stats_2025.json
+│   │   └── README.md
 │   ├── user_data.yaml              # Seus dados (não versionado)
 │   └── user_data.example.yaml      # Exemplo de configuração
 ├── tests/                          # Testes unitários
@@ -442,13 +444,13 @@ python -m src.utils.analyze_user_data
 python -m src.utils.regenerate_microdata
 ```
 
-Isso reprocessa todos os dados do INEP (2004-2024) e regenera os arquivos `stats_*.json`.
+Isso reprocessa todos os dados do INEP (2004-2025) e regenera os arquivos `stats_*.json`.
 
 ## 📈 Recursos Avançados
 
 ### 1. Estatísticas por Ano
 
-O projeto inclui estatísticas oficiais do INEP de **21 anos** (2004-2024):
+O projeto inclui estatísticas oficiais do INEP de **22 anos** (2004-2025):
 
 ```python
 from src.data_collection.historical_data import HistoricalDataCollector
@@ -623,7 +625,7 @@ O ENEM usa parâmetros confidenciais para cada questão (dificuldade, discrimina
 ### O projeto usa dados oficiais?
 
 ✅ **Sim!** Todas as estatísticas vêm do INEP:
-- 21 anos de dados (2004-2024)
+- 22 anos de dados (2004-2025)
 - Médias, desvios-padrão, mínimos e máximos oficiais
 - Atualizados anualmente
 
